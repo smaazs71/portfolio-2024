@@ -9,6 +9,7 @@ import Testimonial from "./section/Testimonial/Testimonial";
 import Footer from "./section/Footer/Footer";
 
 import CustomButton from "./CustomButton";
+import HireMe from "./HireMe";
 
 export {
   Navbar,
@@ -20,5 +21,7 @@ export {
   Contact,
   Testimonial,
   Footer,
+
   CustomButton,
+  HireMe,
 };

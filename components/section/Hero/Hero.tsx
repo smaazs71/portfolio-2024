@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { HireMe } from "@/components";
 
 const Hero = () => {
   return (
@@ -37,6 +38,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      {/* <HireMe /> */}
     </section>
   );
 };
