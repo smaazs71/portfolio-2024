@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors: {
         primary: "rgb(85 64 175/var(--tw-text-opacity))",
-        "primary-light": "rgb(74 108 247var/(--tw-bg-opacity))",
+        "primary-light": "rgb(74 108 247)",
       },
     },
   },

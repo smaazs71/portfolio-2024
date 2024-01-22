@@ -2,32 +2,37 @@ import React from "react";
 
 const HireMe = () => {
   return (
-    <section className="mt-6">
-      <div className="max-w-[1140px]">
-        <div className="bg-primary/70 rounded-sm relative overflow-hidden z-10 text-center py-[70px] ">
-          <div className="max-w-[770px] mx-auto px-3">
-            <h2 className="bg-none opacity-100 font-bold text-2xl text-black md:text-4xl mb-3">
+    <section className="">
+      {/* <div className="mx-5 bg-primary-light rounded-2xl text-center p-5">
+        <h2 className="font-bold text-2xl text-black md:text-4xl mb-3 h-full">
+          Want to work together and create amazing products with me?
+        </h2>
+      </div> */}
+      <div className="max-w-[90%] m-auto ">
+        <div className="bg-primary-light rounded-lg relative overflow-hidden z-10 text-center py-[70px] ">
+          <div className="max-w-[770px] mx-auto px-3 h-full z-10">
+            <h2 className="font-bold text-2xl text-white md:text-4xl mb-12 h-full">
               Want to work together and create amazing products with me?
             </h2>
-            <form className="mx-auto relative max-w-[480px]">
+            <form className="mx-auto relative max-w-[480px] z-10">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="rounded-3xl min-w-100 text-center px-2 py-1 opacity-20 sm:text-left"
+                className="mb-0 rounded-[999px] min-w-full text-white text-center px-8 py-4 outline-2 outline-offset-2 outline-transparent bg-white/15 sm:text-center border-white/15 border"
               />
-              <button className="py-[10px] absolute font-bold text-base rounded-xl bg-white ">
+              <button className="top-2 right-2 m-auto absolute text-primary-light py-[10px] w-auto font-semibold px-5 text-base rounded-[999px] bg-white cursor-pointer">
                 Get a Quote
               </button>
             </form>
           </div>
-          <div className="d k g q bc nn">
+          <div className="absolute right-0 bottom-0 left-0 w-full m-auto z-0">
             <svg
               width="818"
               height="286"
               viewBox="0 0 818 286"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="fa"
+              className="mx-auto"
             >
               <circle
                 cx="409"
