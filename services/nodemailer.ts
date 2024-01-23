@@ -19,9 +19,11 @@ export const sendEmail = async (
   message: string,
   emailId: string
 ) => {
+  console.log("sending email");
+
   try {
     const info = await transporter.sendMail({
-      from: `"AP Furniture" <${process.env.SMTP_EMAIL}>`,
+      from: `"M Maaz Portfolio App @ vercel" <${process.env.SMTP_EMAIL}>`,
       to: emails,
       subject: "Enquiry",
       text: message,

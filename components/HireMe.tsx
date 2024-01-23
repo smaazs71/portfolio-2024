@@ -1,6 +1,35 @@
-import React from "react";
+"use client";
+
+import { useState } from "react";
+import { validateEmail } from "@/utils";
 
 const HireMe = () => {
+  const [email, setEmail] = useState("");
+
+  const sendEmail = async () => {
+    if (!validateEmail("emailData.emailId")) {
+      return;
+    }
+    const emailData = {
+      name: "client",
+      emailId: email,
+      message: "Client request for project inquiry",
+      checked: false,
+    };
+
+    await fetch("/api/contact", {
+      method: "post",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(emailData),
+    })
+      .then((response) => {
+        setEmail("");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
   return (
     <section className="">
       {/* <div className="mx-5 bg-primary-light rounded-2xl text-center p-5">
@@ -16,11 +45,16 @@ const HireMe = () => {
             </h2>
             <form className="mx-auto relative max-w-[480px] z-10">
               <input
+                name="email"
                 type="email"
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
                 className="mb-0 rounded-[999px] min-w-full text-white text-center px-8 py-4 outline-2 outline-offset-2 outline-transparent bg-white/15 sm:text-center border-white/15 border"
               />
-              <button className="top-2 right-2 m-auto absolute text-primary-light py-[10px] w-auto font-semibold px-5 text-base rounded-[999px] bg-white cursor-pointer">
+              <button
+                onClick={() => sendEmail()}
+                className="top-2 right-2 m-auto absolute text-primary-light py-[10px] w-auto font-semibold px-5 text-base rounded-[999px] bg-white cursor-pointer"
+              >
                 Get a Quote
               </button>
             </form>

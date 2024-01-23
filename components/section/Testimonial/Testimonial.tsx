@@ -55,6 +55,7 @@ const Testimonial = () => {
             {/* Trusted by Thousands of Happy Customer */}
             Testimonials
           </h3>
+          <p>These are placeholder testimonials, awaiting the authentic ones.</p>
           <p className="text-center leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-9/12 lg:w-8/12">
             Discover the stories of our delighted customers who have joined us
             with immense satisfaction, sharing their experiences of using our
@@ -69,7 +70,7 @@ const Testimonial = () => {
         >
           {listTestimoni.map((listTestimonis, index) => (
             <div className="px-3 flex items-stretch" key={index}>
-              <div className="border-2 border-gray-500 hover:border-primary-blue transition-all rounded-lg p-8 flex flex-col">
+              <div className="border-2 border-gray-500 hover:border-primary-light transition-all rounded-lg p-8 flex flex-col">
                 <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                   <div className="flex order-2 xl:order-1">
                     <Image
@@ -92,7 +93,7 @@ const Testimonial = () => {
                     <p className="text-base">{listTestimonis.rating}</p>
                     <span className="flex ml-4">
                       <Image
-                        src={"/stars.svg"}
+                        src={"/display-icons/stars.svg"}
                         alt="stars"
                         className="h-5 w-5 "
                         height={5}
@@ -112,11 +113,11 @@ const Testimonial = () => {
         <div className="flex w-full items-center justify-end pe-3">
           <div className="flex flex-none justify-between w-auto mt-14">
             <div
-              className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-primary-blue border hover:bg-primary-blue hover:text-white transition-all text-primary-blue cursor-pointer"
+              className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-primary-light border hover:bg-primary-light hover:text-white transition-all text-primary-light cursor-pointer"
               onClick={sliderRef?.slickPrev}
             >
               <Image
-                src={"/eva_arrow-back-fill.svg"}
+                src={"/button-icons/eva_arrow-back-fill.svg"}
                 alt="arrow-back"
                 className="h-6 w-6 "
                 height={6}
@@ -124,11 +125,11 @@ const Testimonial = () => {
               />
             </div>
             <div
-              className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-primary-blue border hover:bg-primary-blue hover:text-white transition-all text-primary-blue cursor-pointer"
+              className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-primary-light border hover:bg-primary-light hover:text-white transition-all text-primary-light cursor-pointer"
               onClick={sliderRef?.slickNext}
             >
               <Image
-                src={"/eva_arrow-next-fill.svg"}
+                src={"/button-icons/eva_arrow-next-fill.svg"}
                 alt="arrow-back"
                 className="h-6 w-6 "
                 height={6}

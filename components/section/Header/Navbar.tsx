@@ -67,11 +67,11 @@ const Navbar = () => {
               </LinkScroll>
             ))}
           </ul>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
+          <div className="col-start-10 col-end-12 flex justify-end items-center">
             <CustomButton
-              title="Get CV"
+              title="Download CV"
               btnType="button"
-              containerStyles="text-white rounded-full bg-primary-blue min-w-[130px]"
+              containerStyles="text-white font-bold rounded-full bg-primary-light min-w-[130px] px-7 py-3 my-3"
             />
           </div>
         </nav>

@@ -7,9 +7,9 @@ const Hero = () => {
     <>
       <section
         id="hero"
-        className="padding-x min-h-screen p-nav-scroll flex items-center justify-center min-w-screen"
+        className="padding-x min-h-screen flex items-center justify-center min-w-screen"
       >
-        <div className="container my-auto max-w-screen-xl mx-auto">
+        <div className="">
           <div className="text-center">
             {/* <div className="flex justify-center mb-16">
             <Image
