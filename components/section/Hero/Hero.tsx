@@ -25,12 +25,17 @@ const Hero = () => {
             </h6>
 
             <h1 className="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
-              Full Stack Developer <br /> (MERN)
+              Full Stack Developer
             </h1>
 
             <p className="font-normal text-gray-600 text-md md:text-xl mb-16">
-              I have a passion for software. I enjoy creating tools that make
-              life easier for people.
+              Welcome to my digital space! I'm M. Maaz Shaikh, a passionate Full
+              Stack Developer (MERN) dedicated to creating user-focused
+              applications that simplify and enhance life. Explore my journey,
+              education, and the exciting projects that showcase my skills and
+              versatility.
+              {/* I have a passion for software. I enjoy creating tools that make
+              life easier for people. */}
             </p>
 
             <a

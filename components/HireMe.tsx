@@ -41,7 +41,8 @@ const HireMe = () => {
         <div className="bg-primary-light rounded-lg relative overflow-hidden z-10 text-center py-[70px] ">
           <div className="max-w-[770px] mx-auto px-3 h-full z-10">
             <h2 className="font-bold text-2xl text-white md:text-4xl mb-12 h-full">
-              Want to work together and create amazing products with me?
+              {/* Want to work together and create amazing products with me? */}
+              Ready to collaborate on amazing products? Let's work together to bring your ideas to life. Enter your email and let's get started!
             </h2>
             <form className="mx-auto relative max-w-[480px] z-10">
               <input
@@ -49,7 +50,7 @@ const HireMe = () => {
                 type="email"
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="mb-0 rounded-[999px] min-w-full text-white text-center px-8 py-4 outline-2 outline-offset-2 outline-transparent bg-white/15 sm:text-center border-white/15 border"
+                className="mb-0 rounded-[999px] min-w-full text-white sm:text-center px-8 py-4 outline-2 outline-offset-2 outline-transparent bg-white/15 sm:text-center border-white/15 border"
               />
               <button
                 onClick={() => sendEmail()}

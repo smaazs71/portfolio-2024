@@ -36,7 +36,6 @@ body {
   @apply pt-36;
 }
 
-
 .padding-x {
   @apply sm:px-16 px-6;
 }
@@ -85,3 +84,4 @@ body {
   @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
 }
 /* END: Footer styles */
+

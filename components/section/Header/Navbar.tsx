@@ -6,6 +6,7 @@ import { Link as LinkScroll } from "react-scroll";
 import Image from "next/image";
 import { CustomButton } from "@/components";
 import { headerLinks } from "@/constants";
+import Link from "next/link";
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState<string | null>(null);
@@ -19,10 +20,11 @@ const Navbar = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full z-30 bg-white transition-all " +
+          "fixed top-0 w-full z-30 transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-1")
         }
       >
+        <div className="backdrop-blur-sm w-full h-full absolute left-0 top-0"></div>
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-0 sm:py-1">
           <div className="col-start-1 col-end-2 flex items-center">
             <LinkScroll
@@ -41,7 +43,7 @@ const Navbar = () => {
                 alt="portfolio"
                 width={180}
                 height={28}
-                className="object-contain"
+                className="object-contain rounded p-3 bg-white"
               />
             </LinkScroll>
           </div>
@@ -57,10 +59,10 @@ const Navbar = () => {
                   setActiveLink(link.section);
                 }}
                 className={
-                  "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                  "px-4 py-2 mx-2 cursor-pointer border-white border rounded-full drop-shadow-md shadow font-semibold animation-hover inline-block relative" +
                   (activeLink === link.section
-                    ? " text-primary-blue animation-active "
-                    : " text-black-100 hover:text-primary-blue a")
+                    ? " text-primary-light animation-active "
+                    : " text-black-100 hover:text-primary-light a")
                 }
               >
                 {link.title}
@@ -68,11 +70,19 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="col-start-10 col-end-12 flex justify-end items-center">
-            <CustomButton
-              title="Download CV"
-              btnType="button"
-              containerStyles="text-white font-bold rounded-full bg-primary-light min-w-[130px] px-7 py-3 my-3"
-            />
+            <Link
+              href={
+                "https://drive.google.com/file/d/1balr5D2pyR5Y2oV-U7Yy990noEEKtdvx/view?usp=drive_link"
+              }
+              target="blank"
+              className="z-10"
+            >
+              <CustomButton
+                title="Download CV"
+                btnType="button"
+                containerStyles="text-white font-bold rounded-full bg-primary-light min-w-[130px] px-7 py-3 my-3"
+              />
+            </Link>
           </div>
         </nav>
       </header>

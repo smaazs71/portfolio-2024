@@ -55,6 +55,8 @@ const Contact = () => {
     >
       <h1 className="text-4xl font-extrabold mb-4">Get In Touch</h1>
 
+<p className="my-2 text-sm text-black/40 ">Ready to start a project or have a question? Reach out through email, WhatsApp, or social media. Let's connect and create something incredible!</p>
+
       <div
         id="map"
         className="relative h-[310px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"

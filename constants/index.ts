@@ -2,27 +2,27 @@ export const headerLinks = [
   {
     title: "Portfolio",
     section: "portfolio",
-    icon: "/navbar-icon/portfolio.svg",
+    icon: "/navbar-icons/portfolio-icon.svg",
   },
   {
     title: "Journey",
     section: "journey",
-    icon: "/navbar-icon/journey.svg",
+    icon: "/navbar-icons/journey-icon.svg",
   },
   {
     title: "Education",
     section: "education",
-    icon: "/navbar-icon/education.svg",
+    icon: "/navbar-icons/education-icon.svg",
   },
   {
     title: "Eminence",
     section: "eminence",
-    icon: "/navbar-icon/eminence.svg",
+    icon: "/navbar-icons/eminence-icon.svg",
   },
   {
     title: "Contact",
     section: "contact",
-    icon: "/navbar-icon/contact.svg",
+    icon: "/navbar-icons/contact-icon.svg",
   },
 ];
 
@@ -32,7 +32,8 @@ export const journeyData = [
     Date: "Sep 2021 - Feb 2023",
     companyLogo: "/client/infosys-logo.svg",
     description:
-      "Contributed to the development and enhancement of React.js and Spring Boot applications for Amex using Spring Boot, React.js, Selenium, Jenkins and Splunk. Collaborated on business requirements, conducted testing, and provided bug resolution, ensuring high-quality deliverables aligned with client needs.",
+      // "Contributed to the development and enhancement of React.js and Spring Boot applications for Amex using Spring Boot, React.js, Selenium, Jenkins and Splunk. Collaborated on business requirements, conducted testing, and provided bug resolution, ensuring high-quality deliverables aligned with client needs.",
+      "Contributed significantly to React.js and Spring Boot applications for Amex. Collaborated on business requirements, conducted testing, and provided bug resolution."
   },
   {
     title: "FREELANCING (MERN)",
@@ -57,7 +58,8 @@ export const educationData = [
     score: "77.09%",
     url: "https://saintandrewschoolbandra.in/",
     description:
-      "Established in the year 1927, St. Andrew's High School in Bandra West,Mumbai is affiliated with the Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE). The school provides education from primary to secondary levels and follows the curriculum prescribed by the state board.",
+      // "Established in the year 1927, St. Andrew's High School in Bandra West,Mumbai is affiliated with the Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE). The school provides education from primary to secondary levels and follows the curriculum prescribed by the state board.",
+      "Affiliated with MSBSHSE, providing primary to secondary education.",
   },
   {
     title: "Rizvi College of A.S.C.",
@@ -65,7 +67,8 @@ export const educationData = [
     score: "64.31%",
     url: "http://www.rizvicollege.edu.in/",
     description:
-      "Rizvi College is affiliated with the University of Mumbai and offers undergraduate and postgraduate programs in arts, science, and commerce. The college is part of the Rizvi Education Society, which runs several educational institutions in Mumbai.",
+      // "Rizvi College is affiliated with the University of Mumbai and offers undergraduate and postgraduate programs in arts, science, and commerce. The college is part of the Rizvi Education Society, which runs several educational institutions in Mumbai.",
+      "Affiliated with the University of Mumbai, offering undergraduate and postgraduate programs.",
   },
   {
     title: "Rizvi College of Engineering",
@@ -73,7 +76,9 @@ export const educationData = [
     score: "74.37%",
     url: "https://eng.rizvi.edu.in/",
     description:
-      "Rizvi College of Engineering is an engineering college located in Mumbai, India. It is affiliated with the University of Mumbai and offers undergraduate and postgraduate programs in various engineering disciplines.",
+      // "Rizvi College of Engineering is an engineering college located in Mumbai, India. It is affiliated with the University of Mumbai and offers undergraduate and postgraduate programs in various engineering disciplines.",
+      "Affiliated with the University of Mumbai, offering engineering programs.",
+
   },
 ];
 

@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         primary: "rgb(85 64 175/var(--tw-text-opacity))",
         "primary-light": "rgb(74 108 247)",
+        "primary-dark": "rgb(9 14 52)",
         danger: "#bb2124",
       },
     },

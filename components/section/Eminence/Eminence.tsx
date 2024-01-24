@@ -19,11 +19,14 @@ const Eminence = () => {
               and React.js
             </h2>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-              Versatile full-stack developer specializing in Node.js, SQL, and
+              {/* Versatile full-stack developer specializing in Node.js, SQL, NoSQL, and
               React.js. Known for crafting robust, scalable, and user-centric
               applications with adaptability and collaborative spirit in
               fast-paced tech environments. Thrives in dynamic settings,
-              passionate about innovative, high-performance solutions.
+              passionate about innovative, high-performance solutions. */}
+              Versatile Full-Stack Developer specializing in Node.js, SQL, NoSQL and
+              React.js. Known for crafting robust, scalable, and user-centric
+              applications with adaptability and collaborative spirit.
             </p>
             <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
               <div className="bg-white dark:bg-gray-900">
@@ -62,9 +65,10 @@ const Eminence = () => {
                 React JS
               </h3>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                2+ years React JS, Infosys (American Express). Freelance MERN
+                {/* 2+ years React JS, Infosys (American Express). Freelance MERN
                 for AP Furniture, Next.js portfolio. Exploring more Next.js
-                projects.
+                projects. */}
+                React JS: 2+ years (Infosys, Freelance MERN, Next.js)
               </p>
             </div>
             <div>
@@ -80,10 +84,11 @@ const Eminence = () => {
                 Node JS
               </h3>
               <p className="font-light text-gray-500 dark:text-gray-400">
-                Infosys Full Stack Developer (JAVA, React) 1.5 yrs, freelanced 8
+                {/* Infosys Full Stack Developer (JAVA, React) 1.5 yrs, freelanced 8
                 months with MERN. Crafted AP Furniture Management app, completed
                 microservices, email OTP validation, and real-time location
-                sharing projects.
+                sharing projects. */}
+                Node JS: Infosys Full Stack Developer (JAVA, React) - 1.5 years, freelanced 8 months with MERN.
               </p>
             </div>
             <div>
@@ -98,8 +103,9 @@ const Eminence = () => {
                 SQL/NoSQL
               </h3>
               <p className="font-light text-gray-500 dark:text-gray-400">
-                Handled PostgreSQL at Infosys, MongoDB in freelance projects,
-                showcasing versatile database management skills.
+                {/* Handled PostgreSQL at Infosys, MongoDB in freelance projects,
+                showcasing versatile database management skills. */}
+                Database: Handled PostgreSQL at Infosys, MongoDB in freelance projects.
               </p>
             </div>
             <div>
@@ -113,8 +119,9 @@ const Eminence = () => {
 
               <h3 className="mb-2 text-2xl font-bold dark:text-white">SEO</h3>
               <p className="font-light text-gray-500 dark:text-gray-400">
-                Strategically prioritizing and incorporating SEO principles for
-                an impactful, searchable, and accessible online presence.
+                {/* Strategically prioritizing and incorporating SEO principles for
+                an impactful, searchable, and accessible online presence. */}
+                Prioritizing and incorporating SEO principles for an impactful, searchable, and accessible online presence.
               </p>
             </div>
           </div>
