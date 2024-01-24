@@ -1,7 +1,21 @@
-import Image from "next/image";
-import React from "react";
+import { ProjectCard, ShowMore } from "@/components";
+import { projects } from "@/constants";
+import { filterProjects } from "@/utils";
 
-const Portfolio = () => {
+const Portfolio = ({ searchParams }: any) => {
+  const data = projects;
+
+  const filteredProjects = filterProjects(data, {
+    category: searchParams.category || "",
+    stack: searchParams.stack || "",
+    year: searchParams.year || "",
+  });
+
+  const isDataEmpty =
+    !Array.isArray(filteredProjects) ||
+    filteredProjects.length < 1 ||
+    !filteredProjects;
+
   return (
     <section
       id="portfolio"
@@ -53,7 +67,31 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="flex justify-center -mx-4">
-          <div className="px-4 xl:min-w-[83.33%]"></div>
+          <div className="px-4 xl:min-w-[83.33%]">
+            {!isDataEmpty ? (
+              <section>
+                <div className="grid md:grid-cols-2 grid-cols-1 w-full gap-8 max-w-[83.33%] mx-auto">
+                  {filteredProjects?.map((project, i) => {
+                    return (searchParams.limit || 10) > i ? (
+                      <ProjectCard project={project} />
+                    ) : (
+                      ""
+                    );
+                  })}
+                </div>
+                <ShowMore
+                  pageNumber={(searchParams.limit || 4) / 4}
+                  isNext={(searchParams.limit || 4) < filterProjects.length}
+                />
+              </section>
+            ) : (
+              <div className="home__error-container">
+                <h2 className="text-black text-x1 font-bold">
+                  Oops, no results
+                </h2>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </section>

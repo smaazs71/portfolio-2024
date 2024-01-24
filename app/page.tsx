@@ -3,17 +3,20 @@ import {
   Education,
   Eminence,
   Hero,
+  HireMe,
   Journey,
   Portfolio,
   Testimonial,
 } from "@/components";
 
-export default function Home() {
+export default function Home({ searchParams }: any) {
   return (
     <main className="overflow-hidden padding-y">
       <Hero />
 
-      <Portfolio />
+      <Portfolio searchParams={searchParams}  />
+
+      <HireMe />
 
       <Journey />
 

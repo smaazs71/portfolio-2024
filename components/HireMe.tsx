@@ -31,7 +31,7 @@ const HireMe = () => {
   };
 
   return (
-    <section className="">
+    <section id="hireme" className="">
       {/* <div className="mx-5 bg-primary-light rounded-2xl text-center p-5">
         <h2 className="font-bold text-2xl text-black md:text-4xl mb-3 h-full">
           Want to work together and create amazing products with me?
@@ -39,10 +39,16 @@ const HireMe = () => {
       </div> */}
       <div className="max-w-[90%] m-auto ">
         <div className="bg-primary-light rounded-lg relative overflow-hidden z-10 text-center py-[70px] ">
-          <div className="max-w-[770px] mx-auto px-3 h-full z-10">
-            <h2 className="font-bold text-2xl text-white md:text-4xl mb-12 h-full">
-              {/* Want to work together and create amazing products with me? */}
-              Ready to collaborate on amazing products? Let's work together to bring your ideas to life. Enter your email and let's get started!
+          <div className="max-w-4xl lg:max-w-5xl mx-auto px-3 h-full z-10">
+            <h2 className="font-bold text-2xl text-white md:text-3xl mb-12 h-full">
+              <span className="sm:hidden">
+                Want to work together and create amazing products with me?
+              </span>
+              <span className="hidden sm:block">
+                Ready to collaborate on amazing products? Let's work together to
+                bring your ideas to life. Enter your email and let's get
+                started!
+              </span>
             </h2>
             <form className="mx-auto relative max-w-[480px] z-10">
               <input

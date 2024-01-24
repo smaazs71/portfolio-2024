@@ -10,6 +10,9 @@ import Footer from "./section/Footer/Footer";
 
 import CustomButton from "./CustomButton";
 import HireMe from "./HireMe";
+import ProjectCard from "./ProjectCard";
+import ShowMore from "./ShowMore";
+
 
 export {
   Navbar,
@@ -24,4 +27,6 @@ export {
 
   CustomButton,
   HireMe,
+  ProjectCard,
+  ShowMore,
 };

@@ -1,6 +1,7 @@
+"use client";
+
 import React from "react";
-import Image from "next/image";
-import { HireMe } from "@/components";
+import { Link as LinkScroll } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -38,16 +39,18 @@ const Hero = () => {
               life easier for people. */}
             </p>
 
-            <a
-              href="#"
-              className="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+            <LinkScroll
+              to="hireme"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 hover:border-gray-700 border transition ease-linear duration-500"
             >
               Hire me
-            </a>
+            </LinkScroll>
           </div>
         </div>
       </section>
-      <HireMe />
     </>
   );
 };

@@ -39,7 +39,7 @@ const Navbar = () => {
               className={"px-4 py-2 mx-2 cursor-pointer inline-block relative"}
             >
               <Image
-                src="/display-icons/Uchiha-Mugiwara-logos-black.png"
+                src="/logo/Uchiha-Mugiwara-logos-black.png"
                 alt="portfolio"
                 width={180}
                 height={28}

@@ -12,7 +12,7 @@ const Journey = () => {
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
           My work experience
         </h2>
-        <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+        <h3 className="pt-6 mb-12 text-center font-header text-base font-medium text-black/40 sm:text-xl lg:text-2xl">
           Taking a moment to reflect on my journey and accomplishments thus far.
         </h3>
 

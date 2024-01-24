@@ -19,18 +19,15 @@ const Eminence = () => {
               and React.js
             </h2>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-              {/* Versatile full-stack developer specializing in Node.js, SQL, NoSQL, and
-              React.js. Known for crafting robust, scalable, and user-centric
-              applications with adaptability and collaborative spirit in
-              fast-paced tech environments. Thrives in dynamic settings,
-              passionate about innovative, high-performance solutions. */}
-              Versatile Full-Stack Developer specializing in Node.js, SQL, NoSQL and
-              React.js. Known for crafting robust, scalable, and user-centric
-              applications with adaptability and collaborative spirit.
+              Versatile Full-Stack Developer specializing in Node.js, SQL, NoSQL
+              and React.js. Known for crafting robust, scalable, and
+              user-centric applications with adaptability and collaborative
+              spirit.
             </p>
             <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
               <div className="bg-white dark:bg-gray-900">
                 <div className="max-w-screen-xl px-4 mx-auto">
+                  <h1 className="font-bold text-2xl mb-5">Worked for:</h1>
                   <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-10 sm:grid-cols-3 lg:grid-cols-4 dark:text-gray-400">
                     {clientData.map((client) => (
                       <a
@@ -51,7 +48,10 @@ const Eminence = () => {
               </div>
             </div>
           </div>
-          <div className="pt-12 lg:pt-0 col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+            <h2 className="pt-6 my-6 text-3xl text-bold w-full lg:hidden border-t border-gray-200">
+              Skills
+            </h2>
+          <div className="pt-0 col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
             <div>
               <Image
                 src={"/display-icons/react-logo.svg"}
@@ -65,10 +65,8 @@ const Eminence = () => {
                 React JS
               </h3>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                {/* 2+ years React JS, Infosys (American Express). Freelance MERN
-                for AP Furniture, Next.js portfolio. Exploring more Next.js
-                projects. */}
-                React JS: 2+ years (Infosys, Freelance MERN, Next.js)
+                React JS: 2+ years. Infosys (Amex). Freelance on MERN for AP
+                Furniture, Next.js portfolio. Exploring more Next.js projects.
               </p>
             </div>
             <div>
@@ -84,11 +82,9 @@ const Eminence = () => {
                 Node JS
               </h3>
               <p className="font-light text-gray-500 dark:text-gray-400">
-                {/* Infosys Full Stack Developer (JAVA, React) 1.5 yrs, freelanced 8
-                months with MERN. Crafted AP Furniture Management app, completed
-                microservices, email OTP validation, and real-time location
-                sharing projects. */}
-                Node JS: Infosys Full Stack Developer (JAVA, React) - 1.5 years, freelanced 8 months with MERN.
+                Node JS: Infosys Full Stack Developer (JAVA, React) - 1.5 years,
+                freelanced approx. 8 months with MERN. Completed microservices,
+                email OTP validation, and real-time location sharing projects.
               </p>
             </div>
             <div>
@@ -103,9 +99,8 @@ const Eminence = () => {
                 SQL/NoSQL
               </h3>
               <p className="font-light text-gray-500 dark:text-gray-400">
-                {/* Handled PostgreSQL at Infosys, MongoDB in freelance projects,
-                showcasing versatile database management skills. */}
-                Database: Handled PostgreSQL at Infosys, MongoDB in freelance projects.
+                Database: Handled PostgreSQL at Infosys, MongoDB in freelance
+                projects. Showcasing versatile database management skills.
               </p>
             </div>
             <div>
@@ -119,9 +114,8 @@ const Eminence = () => {
 
               <h3 className="mb-2 text-2xl font-bold dark:text-white">SEO</h3>
               <p className="font-light text-gray-500 dark:text-gray-400">
-                {/* Strategically prioritizing and incorporating SEO principles for
-                an impactful, searchable, and accessible online presence. */}
-                Prioritizing and incorporating SEO principles for an impactful, searchable, and accessible online presence.
+                Prioritizing and incorporating SEO principles for an impactful,
+                searchable, and accessible online presence.
               </p>
             </div>
           </div>

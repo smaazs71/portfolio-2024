@@ -26,14 +26,132 @@ export const headerLinks = [
   },
 ];
 
+export const projects = [
+  {
+    id: "string",
+    name: "string",
+    description: "description",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/test.png"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description: "description",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/portfolio-test-1.jpg"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description: "description",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/GIFIdPredictionGif.gif"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description: "description",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/GIFMinip.gif"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description: "description",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/GIFRcoePrint.gif"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description:
+      "Laboris nostrud magna enim aliqua sit incididunt anim quis tempor proident pariatur ea est.",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/portfolio-test-2.jpg"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description:
+      "Nostrud non ut aute quis amet. Veniam exercitation duis laborum ut labore ullamco ad veniam dolore enim. Quis anim minim cillum incididunt culpa amet commodo Lorem deserunt consequat. Deserunt do amet ex sunt duis sit.",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/portfolio-test-3.jpg"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description:
+      "Tempor nisi exercitation tempor dolore anim amet. Veniam cillum occaecat cillum aute nostrud. Adipisicing fugiat labore in mollit sunt velit mollit. Aute Lorem dolor laboris aliquip consequat aliquip anim officia nostrud magna cupidatat pariatur. Excepteur exercitation tempor sit do Lorem. Nostrud sit ullamco cupidatat mollit sit ad nostrud laborum ex laborum.",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/portfolio-test-4.jpg"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description:
+      "Tempor nisi exercitation tempor dolore anim amet. Veniam cillum occaecat cillum aute nostrud. Adipisicing fugiat labore in mollit sunt velit mollit. Aute Lorem dolor laboris aliquip consequat aliquip anim officia nostrud magna cupidatat pariatur. Excepteur exercitation tempor sit do Lorem. Nostrud sit ullamco cupidatat mollit sit ad nostrud laborum ex laborum.",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/GIFSmartHomeAutomation.gif"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description:
+      "Tempor nisi exercitation tempor dolore anim amet. Veniam cillum occaecat cillum aute nostrud. Adipisicing fugiat labore in mollit sunt velit mollit. Aute Lorem dolor laboris aliquip consequat aliquip anim officia nostrud magna cupidatat pariatur. Excepteur exercitation tempor sit do Lorem. Nostrud sit ullamco cupidatat mollit sit ad nostrud laborum ex laborum.",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/portfolio-test-4.jpg"],
+  },
+  {
+    id: "string",
+    name: "string",
+    description:
+      "Elit anim cillum ullamco ex ad. Ad labore esse officia ad ex nostrud eiusmod elit adipisicing qui laboris. Veniam eiusmod consectetur anim excepteur elit dolor laboris aliqua. Incididunt anim officia ut ullamco et minim ullamco pariatur ut culpa excepteur. Dolor nisi commodo non sint ex aute nostrud nostrud amet magna ipsum dolore esse. Anim ipsum aliqua id irure. Commodo aliqua qui ad incididunt proident.",
+    category: "string",
+    stack: "string",
+    year: "string",
+    key_words: "string",
+    images_path: ["/portfolio/GIFTicTacToe.gif"],
+  },
+];
+
 export const journeyData = [
   {
     title: "FULL STACK DEVELOPER",
     Date: "Sep 2021 - Feb 2023",
     companyLogo: "/client/infosys-logo.svg",
     description:
-      // "Contributed to the development and enhancement of React.js and Spring Boot applications for Amex using Spring Boot, React.js, Selenium, Jenkins and Splunk. Collaborated on business requirements, conducted testing, and provided bug resolution, ensuring high-quality deliverables aligned with client needs.",
-      "Contributed significantly to React.js and Spring Boot applications for Amex. Collaborated on business requirements, conducted testing, and provided bug resolution."
+      "Contributed significantly to React.js and Spring Boot applications for Amex. Collaborated on business requirements, conducted testing, and provided bug resolution.",
   },
   {
     title: "FREELANCING (MERN)",
@@ -58,8 +176,7 @@ export const educationData = [
     score: "77.09%",
     url: "https://saintandrewschoolbandra.in/",
     description:
-      // "Established in the year 1927, St. Andrew's High School in Bandra West,Mumbai is affiliated with the Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE). The school provides education from primary to secondary levels and follows the curriculum prescribed by the state board.",
-      "Affiliated with MSBSHSE, providing primary to secondary education.",
+      "Established in the year 1927, affiliated with MSBSHSE, providing primary to secondary education.",
   },
   {
     title: "Rizvi College of A.S.C.",
@@ -67,7 +184,6 @@ export const educationData = [
     score: "64.31%",
     url: "http://www.rizvicollege.edu.in/",
     description:
-      // "Rizvi College is affiliated with the University of Mumbai and offers undergraduate and postgraduate programs in arts, science, and commerce. The college is part of the Rizvi Education Society, which runs several educational institutions in Mumbai.",
       "Affiliated with the University of Mumbai, offering undergraduate and postgraduate programs.",
   },
   {
@@ -76,9 +192,7 @@ export const educationData = [
     score: "74.37%",
     url: "https://eng.rizvi.edu.in/",
     description:
-      // "Rizvi College of Engineering is an engineering college located in Mumbai, India. It is affiliated with the University of Mumbai and offers undergraduate and postgraduate programs in various engineering disciplines.",
       "Affiliated with the University of Mumbai, offering engineering programs.",
-
   },
 ];
 
