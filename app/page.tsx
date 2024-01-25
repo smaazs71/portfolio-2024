@@ -9,12 +9,12 @@ import {
   Testimonial,
 } from "@/components";
 
-export default function Home({ searchParams }: any) {
+export default function Home() {
   return (
-    <main className="overflow-hidden padding-y">
+    <main className="overflow-hidden">
       <Hero />
 
-      <Portfolio searchParams={searchParams}  />
+      <Portfolio />
 
       <HireMe />
 

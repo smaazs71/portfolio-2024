@@ -22,9 +22,11 @@ export interface ProjectDataProps {
 }
 
 export interface ProjectsFilterProps {
+  searchText: string;
   category: string;
   stack: string;
   year: string;
+  // limit: number;
 }
 
 export interface OptionProps {
@@ -35,4 +37,6 @@ export interface OptionProps {
 export interface ShowMoreProps {
   pageNumber: number;
   isNext: boolean;
+  setLimit: (newLimit: number) => void;
+  projectsPerPage: number;
 }

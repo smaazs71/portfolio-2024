@@ -6,20 +6,6 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
@@ -30,10 +16,43 @@ body {
     text-wrap: balance;
   }
 }
+* {
+  @apply text-pretty;
+}
+
+.even-section-bg {
+  @apply bg-white;
+}
+.odd-section-bg {
+  @apply bg-gray-50;
+}
 
 /* padding for navbar scroll feature */
 .p-nav-scroll {
-  @apply pt-36;
+  @apply pt-28;
+}
+
+.pb-section {
+  @apply pb-8;
+}
+
+.title-adj {
+  @apply text-primary-light font-semibold text-lg block mb-2;
+}
+.title {
+  @apply mb-5 font-bold text-4xl text-primary-dark mx-auto text-center md:max-w-[83.33%];
+}
+
+.sub-title {
+  @apply text-black/40 font-medium text-lg mb-6 mx-auto text-center;
+}
+
+.title-2 {
+  @apply mb-5 font-bold text-2xl text-primary-dark;
+}
+
+.sub-title-2 {
+  @apply font-light text-gray-500 text-base;
 }
 
 .padding-x {
@@ -84,4 +103,3 @@ body {
   @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
 }
 /* END: Footer styles */
-

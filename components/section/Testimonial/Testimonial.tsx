@@ -47,16 +47,16 @@ const Testimonial = () => {
   return (
     <div
       id="testimonial"
-      className="padding-x min-h-screen p-nav-scroll max-width"
+      className=" even-section-bg padding-x min-h-screen p-nav-scroll max-width pb-section"
     >
       <div className="max-w-screen-xl mx-auto flex flex-col w-full text-center justify-center">
         <div>
-          <h3 className="text-center text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
+          <h3 className="title">
             {/* Trusted by Thousands of Happy Customer */}
             Testimonials
           </h3>
           <p>These are placeholder testimonials, awaiting the authentic ones.</p>
-          <p className="text-center leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-9/12 lg:w-8/12">
+          <p className="sub-title">
             Discover the stories of our delighted customers who have joined us
             with immense satisfaction, sharing their experiences of using our
             products.

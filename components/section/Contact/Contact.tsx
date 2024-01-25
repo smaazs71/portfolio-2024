@@ -51,13 +51,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="padding-x min-h-screen p-nav-scroll max-width"
+      className="odd-section-bg padding-x min-h-screen p-nav-scroll max-width pb-section"
     >
-      <h1 className="text-4xl font-extrabold mb-4">Get In Touch</h1>
+      <h1 className="title">Get In Touch</h1>
 
-      <p className="my-2 text-sm sm:text-lg text-black/70 ms-2">
+      <p className="sub-title">
         Ready to start a project or have a question? Reach out through email,
-        WhatsApp, or social media. <br/>Let's connect and create something
+        WhatsApp, or social media. Let's connect and create something
         incredible!
       </p>
 

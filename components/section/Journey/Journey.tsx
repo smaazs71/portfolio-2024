@@ -6,15 +6,16 @@ const Journey = () => {
   return (
     <section
       id="journey"
-      className="padding-x min-h-screen p-nav-scroll flex items-center justify-center"
+      className="odd-section-bg padding-x min-h-screen p-nav-scroll flex items-center justify-center pb-section"
     >
-      <div className="py-16 md:py-20" id="work">
-        <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          My work experience
-        </h2>
-        <h3 className="pt-6 mb-12 text-center font-header text-base font-medium text-black/40 sm:text-xl lg:text-2xl">
-          Taking a moment to reflect on my journey and accomplishments thus far.
-        </h3>
+      <div className="pb-16 md:pb-20" id="work">
+        <div className="text-center">
+          <h2 className="title">My work experience</h2>
+          <h3 className="sub-title">
+            Taking a moment to reflect on my journey and accomplishments thus
+            far.
+          </h3>
+        </div>
 
         <div className="relative mx-auto flex w-full flex-col lg:w-2/3">
           <span className="left-[40%] absolute inset-y-0 ml-10 hidden w-0.5 bg-gray-400 md:block"></span>
