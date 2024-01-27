@@ -49,36 +49,6 @@ export const projects = [
   },
   {
     id: "string",
-    name: "Id Prediction",
-    description: "Id Prediction",
-    category: "college",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/GIFIdPredictionGif.gif"],
-  },
-  {
-    id: "string",
-    name: "Minip",
-    description: "Description Minip",
-    category: "college",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/GIFMinip.gif"],
-  },
-  {
-    id: "string",
-    name: "RCOE Print",
-    description: "description",
-    category: "college",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/GIFRcoePrint.gif"],
-  },
-  {
-    id: "string",
     name: "freelancing",
     description:
       "Laboris nostrud magna enim aliqua sit incididunt anim quis tempor proident pariatur ea est.",
@@ -87,39 +57,6 @@ export const projects = [
     year: "string",
     key_words: "string",
     images_path: ["/portfolio/portfolio-test-2.jpg"],
-  },
-  {
-    id: "string",
-    name: "job",
-    description:
-      "Nostrud non ut aute quis amet. Veniam exercitation duis laborum ut labore ullamco ad veniam dolore enim. Quis anim minim cillum incididunt culpa amet commodo Lorem deserunt consequat. Deserunt do amet ex sunt duis sit.",
-    category: "job",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/portfolio-test-3.jpg"],
-  },
-  {
-    id: "string",
-    name: "freelancing 3",
-    description:
-      "Tempor nisi exercitation tempor dolore anim amet. Veniam cillum occaecat cillum aute nostrud. Adipisicing fugiat labore in mollit sunt velit mollit. Aute Lorem dolor laboris aliquip consequat aliquip anim officia nostrud magna cupidatat pariatur. Excepteur exercitation tempor sit do Lorem. Nostrud sit ullamco cupidatat mollit sit ad nostrud laborum ex laborum.",
-    category: "freelancing",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/portfolio-test-4.jpg"],
-  },
-  {
-    id: "string",
-    name: "Smart Home Automation",
-    description:
-      "Tempor nisi exercitation tempor dolore anim amet. Veniam cillum occaecat cillum aute nostrud. Adipisicing fugiat labore in mollit sunt velit mollit. Aute Lorem dolor laboris aliquip consequat aliquip anim officia nostrud magna cupidatat pariatur. Excepteur exercitation tempor sit do Lorem. Nostrud sit ullamco cupidatat mollit sit ad nostrud laborum ex laborum.",
-    category: "college",
-    stack: "Android",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/GIFSmartHomeAutomation.gif"],
   },
   {
     id: "string",
@@ -134,13 +71,86 @@ export const projects = [
   },
   {
     id: "string",
-    name: "Tic Tac Toe",
+    name: "job",
     description:
-      "Elit anim cillum ullamco ex ad. Ad labore esse officia ad ex nostrud eiusmod elit adipisicing qui laboris. Veniam eiusmod consectetur anim excepteur elit dolor laboris aliqua. Incididunt anim officia ut ullamco et minim ullamco pariatur ut culpa excepteur. Dolor nisi commodo non sint ex aute nostrud nostrud amet magna ipsum dolore esse. Anim ipsum aliqua id irure. Commodo aliqua qui ad incididunt proident.",
-    category: "college",
-    stack: "C",
+      "Nostrud non ut aute quis amet. Veniam exercitation duis laborum ut labore ullamco ad veniam dolore enim. Quis anim minim cillum incididunt culpa amet commodo Lorem deserunt consequat. Deserunt do amet ex sunt duis sit.",
+    category: "job",
+    stack: "string",
     year: "string",
     key_words: "string",
+    images_path: ["/portfolio/portfolio-test-3.jpg"],
+  },
+
+
+
+
+  
+  {
+    id: "string",
+    name: "Id Prediction",
+    description:
+      "A machine learning program executed in python that predicts the type of Identity proof and extracts the data from it.",
+    category: "college",
+    stack: "Python, Google Colab, Machine Learning",
+    year: "2019",
+    key_words:
+      "Id proof Prediction and Extraction of data college Python, Google Colab, Machine Learning 2019",
+    images_path: ["/portfolio/GIFIdPredictionGif.gif"],
+  },
+  {
+    id: "string",
+    name: "Minip",
+    description:
+      "A website similar to Amazon E-Commerce website, designed using PHP.",
+    category: "college",
+    stack: "PHP, jQuery, MySQL",
+    year: "2018",
+    key_words: "Minip college PHP, jQuery, MySQL 2018",
+    images_path: ["/portfolio/GIFMinip.gif"],
+  },
+  {
+    id: "string",
+    name: "RCOE Print",
+    description:
+      "A website in PHP that allows a user to store their documents and print from there itself.",
+    category: "college",
+    stack: "AWS, PHP, Bootstrap",
+    year: "2020",
+    key_words: "RCOE Print college AWS, PHP, Bootstrap ",
+    images_path: ["/portfolio/GIFRcoePrint.gif"],
+  },
+  {
+    id: "string",
+    name: "Maze Game",
+    description:
+      "Using graphics library in C++ this program generates a different Maze game everytime you play based on certain changeable parameters.",
+    category: "college",
+    stack: "C Programming Language, C++",
+    year: "2018",
+    key_words: "C Programming Language, C++ 2018 college Maze Game",
+    images_path: ["/portfolio/portfolio-test-4.jpg"],
+  },
+  {
+    id: "string",
+    name: "Smart Home Automation",
+    description:
+      "Home Automation system using Android App with AI and NodeMCU (ESP8266 Wifi module). With features like Speech recognition, Command Store, Floating widget service and Automatic scheduling system.",
+    category: "college",
+    stack: "Android, NodeMCU, Web-development",
+    year: "2019 - 2020",
+    key_words:
+      "Smart Home Automation AI college 2019 - 2020 Android, NodeMCU, Web-development",
+    images_path: ["/portfolio/GIFSmartHomeAutomation.gif"],
+  },
+  {
+    id: "string",
+    name: "Tic Tac Toe",
+    description:
+      "A Java program with AI which allows you to play Tic tac toe game with the program or a person.",
+    category: "college",
+    stack: "Java",
+    year: "2017",
+    key_words: "Tic Tac Toe Java college 2017",
     images_path: ["/portfolio/GIFTicTacToe.gif"],
   },
 ];
