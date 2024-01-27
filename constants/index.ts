@@ -28,63 +28,57 @@ export const headerLinks = [
 
 export const projects = [
   {
-    id: "test",
-    name: "test1",
-    description: "description1",
-    category: "assignment",
-    stack: "test",
-    year: "2024",
-    key_words: "test 2024 description1 test1",
-    images_path: ["/portfolio/test.png"],
-  },
-  {
     id: "string",
-    name: "freeLancing",
-    description: "description freelancing",
-    category: "freelancing",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/portfolio-test-1.jpg"],
-  },
-  {
-    id: "string",
-    name: "freelancing",
+    name: "The Ap",
     description:
-      "Laboris nostrud magna enim aliqua sit incididunt anim quis tempor proident pariatur ea est.",
+      "TheAP Portfolio WebApp is designed for an elegant showcase of AP Furniture's trolleys and stands, featuring company history, details, and contacts to enhance business engagement.",
     category: "freelancing",
-    stack: "string",
-    year: "string",
+    stack: "NextJS, ReactJS, Tailwind CSS",
+    year: "2023",
     key_words: "string",
-    images_path: ["/portfolio/portfolio-test-2.jpg"],
+    images_path: ["/portfolio/theap.gif"],
   },
+  {
+    id: "string",
+    name: "AP Management",
+    description:
+      "The AP Management App, developed with React JS, Redux, Express, and MongoDB, serves as a comprehensive solution for company operations. It efficiently handles billing, payment records, stock management, employee administration, attendance, and more.",
+    category: "freelancing",
+    stack: "MERN, React, Redux, NodeJS, Express, MongoDB",
+    year: "2020 & 2023",
+    key_words: "string",
+    images_path: ["/portfolio/theap.gif"],
+  },
+
+  
+  
   {
     id: "string",
     name: "Infosys",
     description:
-      "Tempor nisi exercitation tempor dolore anim amet. Veniam cillum occaecat cillum aute nostrud. Adipisicing fugiat labore in mollit sunt velit mollit. Aute Lorem dolor laboris aliquip consequat aliquip anim officia nostrud magna cupidatat pariatur. Excepteur exercitation tempor sit do Lorem. Nostrud sit ullamco cupidatat mollit sit ad nostrud laborum ex laborum.",
+      "Trained in full-stack development with a focus on Angular, Spring Boot, and microservices architecture during my tenure at Infosys. Contributed as a React and Spring Boot developer for the American Express client on the AOST project.",
     category: "job",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/portfolio-test-4.jpg"],
+    stack: "Angular, Spring boot, React, Microservices",
+    year: "2021 - 2023",
+    key_words: "Infosys Angular, Spring boot, React, Microservices 2021 - 2023",
+    images_path: ["/portfolio/infosys.gif"],
   },
   {
     id: "string",
-    name: "job",
+    name: "American Express",
     description:
-      "Nostrud non ut aute quis amet. Veniam exercitation duis laborum ut labore ullamco ad veniam dolore enim. Quis anim minim cillum incididunt culpa amet commodo Lorem deserunt consequat. Deserunt do amet ex sunt duis sit.",
+      "Contributed to the development and enhancement of React.js and Spring Boot applications for Amex using Spring Boot, React.js, Selenium, Jenkins and Splunk. Collaborated on business requirements, conducted  testing, and provided bug resolution, ensuring high-quality deliverables aligned with client needs.",
     category: "job",
-    stack: "string",
-    year: "string",
-    key_words: "string",
-    images_path: ["/portfolio/portfolio-test-3.jpg"],
+    stack: "Spring boot, React, Selenium, Splunk, Jenkins, PostgressQL",
+    year: "2021 -2023",
+    key_words:
+      "American Express Spring boot, React, Selenium, Splunk, Jenkins, PostgressQL 2021 -2023",
+    images_path: ["/portfolio/american-express.gif"],
   },
 
 
 
 
-  
   {
     id: "string",
     name: "Id Prediction",
@@ -152,6 +146,50 @@ export const projects = [
     year: "2017",
     key_words: "Tic Tac Toe Java college 2017",
     images_path: ["/portfolio/GIFTicTacToe.gif"],
+  },
+
+
+
+
+  {
+    id: "test",
+    name: "Acceron - Location sharing using socket-io in Microservice",
+    description: "A full-stack project using Node.js, Express, Socket.IO, React, and Leaflet for real-time location sharing  between taxi drivers and passengers.",
+    category: "assignment",
+    stack: "NodeJS, Express, SocketIO, Microservices",
+    year: "2023",
+    key_words: "string",
+    images_path: ["/portfolio/location-sharing-microservice.gif"],
+  },
+  {
+    id: "string",
+    name: "Vigor Backend - Email validation By OTP",
+    description: "Ensures secure email validation in Node.js, employing a one-time password (OTP) system for robust authentication.",
+    category: "assignment",
+    stack: "NodeJS, Express, NodeMailer, Gmail",
+    year: "2023",
+    key_words: "string",
+    images_path: ["/portfolio/vigor-backend.gif"],
+  },
+  {
+    id: "string",
+    name: "Vigor Frontend - complex transition layout from figma",
+    description: "For a pre-job assessment, I crafted a complex transition layout for Vigor Launchpad, showcasing my skills in frontend development based on Figma designs.",
+    category: "assignment",
+    stack: "Next, Tailwind, Headless/UI",
+    year: "2023",
+    key_words: "string",
+    images_path: ["/portfolio/vigor-frontend.gif"],
+  },
+  {
+    id: "string",
+    name: "Portfolio 2020",
+    description: "My PHP-powered Portfolio website is a dynamic showcase of my professional journey, featuring interactive elements to highlight skills and achievements.",
+    category: "assignment",
+    stack: "PHP, javascript",
+    year: "2020",
+    key_words: "string",
+    images_path: ["/portfolio/portfolio-old.gif"],
   },
 ];
 

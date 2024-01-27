@@ -38,8 +38,7 @@ const Portfolio = () => {
               <span className="title-adj">Creative Portfolios</span>
               <h2 className="title">Recent Works</h2>
               <p className="sub-title">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                A Closer Look at Our Recent Works and Innovative Solutions.
               </p>
             </div>
           </div>
