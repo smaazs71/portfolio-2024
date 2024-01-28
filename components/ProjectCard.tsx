@@ -39,7 +39,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         onMouseOver={() => setImageSrc(gif_path)}
         onMouseOut={() => setImageSrc(images_path[0])}
         priority
-        className="w-full rounded-md h-[16.5rem] shadow-xl " // object-contain object-center
+        className="w-full rounded-md h-[16.5rem] " // object-contain object-center
       />
 
       <div className="text-xl my-3 font-semibold capitalize hover:text-primary-light">

@@ -6,9 +6,9 @@ const Journey = () => {
   return (
     <section
       id="journey"
-      className="odd-section-bg padding-x min-h-screen p-nav-scroll flex items-center justify-center pb-section"
+      className="odd-section-bg padding-x min-h-screen flex items-center justify-center p-nav-scroll pb-section"
     >
-      <div className="pb-16 md:pb-20" id="work">
+      <div className="" id="work">
         <div className="text-center">
           <h2 className="title">My work experience</h2>
           <h3 className="sub-title">

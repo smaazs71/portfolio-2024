@@ -29,7 +29,7 @@ body {
 
 /* padding for navbar scroll feature */
 .p-nav-scroll {
-  @apply pt-28;
+  @apply pt-24;
 }
 
 .pb-section {

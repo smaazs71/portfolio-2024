@@ -29,15 +29,26 @@ const Footer = () => {
                   key={item.title}
                   href={item.url}
                   rel="noopener noreferrer"
-                  target={
-                    `${link.title}`.toLowerCase() === "buying options"
-                      ? "_blank"
-                      : ""
-                  }
-                  className="sub-title-2"
+                  target={"_blank"}
+                  className="sub-title-2 flex items-center justify-start gap-2 hover:text-black hover:font-medium"
                 >
+                  {item.image_path && item.image_path !== "" ? (
+                    <>
+                      <Image
+                        src={item.image_path}
+                        alt="image"
+                        width={100}
+                        height={100}
+                        className={`object-contain w-9 h-9 `}
+                      />
+                      <span>{item.title}</span>
+                    </>
+                  ) : (
+                    item.title
+                  )}
+
                   {/* {item.image_path ? <Image src={item.image_path} alt="image" width={18} height={18} className="object-contain" /> : ""} */}
-                  {item.title}
+                  {/* {item.title} */}
                 </Link>
               ))}
             </div>

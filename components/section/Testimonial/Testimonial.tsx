@@ -47,7 +47,7 @@ const Testimonial = () => {
   return (
     <div
       id="testimonial"
-      className=" even-section-bg padding-x min-h-screen p-nav-scroll max-width pb-section"
+      className=" even-section-bg padding-x min-h-screen p-nav-scroll pb-section"
     >
       <div className="max-w-screen-xl mx-auto flex flex-col w-full text-center justify-center">
         <div>

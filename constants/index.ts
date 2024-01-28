@@ -28,7 +28,7 @@ export const headerLinks = [
 
 export const projects = [
   {
-    id: "string",
+    id: "freelancing_2",
     name: "The Ap",
     description:
       "TheAP Portfolio WebApp is designed for an elegant showcase of AP Furniture's trolleys and stands, featuring company history, details, and contacts to enhance business engagement.",
@@ -39,10 +39,10 @@ export const projects = [
     src_code_url: "https://github.com/smaazs71/theap",
     view_demo_url: "https://theap.vercel.app/",
     gif_path: "/portfolio/theap.gif",
-    images_path: ["/portfolio/theap.png"],
+    images_path: ["/portfolio/theap-2.png"],
   },
   {
-    id: "string",
+    id: "freelancing_1",
     name: "AP Management",
     description:
       "The AP Management App, developed with React JS, Redux, Express, and MongoDB, serves as a comprehensive solution for company operations. It efficiently handles billing, payment records, stock management, employee administration, attendance, and more.",
@@ -57,7 +57,7 @@ export const projects = [
   },
 
   {
-    id: "string",
+    id: "job_2",
     name: "Infosys",
     description:
       "Trained in full-stack development with a focus on Angular, Spring Boot, and microservices architecture during my tenure at Infosys. Contributed as a React and Spring Boot developer for the American Express client on the AOST project.",
@@ -71,7 +71,7 @@ export const projects = [
     images_path: ["/portfolio/infosys.png"],
   },
   {
-    id: "string",
+    id: "job_1",
     name: "American Express",
     description:
       "Contributed to the development and enhancement of React.js and Spring Boot applications for Amex using Spring Boot, React.js, Selenium, Jenkins and Splunk. Collaborated on business requirements, conducted  testing, and provided bug resolution, ensuring high-quality deliverables aligned with client needs.",
@@ -87,7 +87,7 @@ export const projects = [
   },
 
   {
-    id: "string",
+    id: "college_1",
     name: "Id Prediction",
     description:
       "A machine learning program executed in python that predicts the type of Identity proof and extracts the data from it.",
@@ -103,7 +103,7 @@ export const projects = [
     images_path: ["/portfolio/id-prediction.png"],
   },
   {
-    id: "string",
+    id: "college_2",
     name: "Minip",
     description:
       "A website similar to Amazon E-Commerce website, designed using PHP.",
@@ -117,7 +117,7 @@ export const projects = [
     images_path: ["/portfolio/minip.png"],
   },
   {
-    id: "string",
+    id: "college_3",
     name: "RCOE Print",
     description:
       "A website in PHP that allows a user to store their documents and print from there itself.",
@@ -131,7 +131,7 @@ export const projects = [
     images_path: ["/portfolio/rcoe-print.png"],
   },
   {
-    id: "string",
+    id: "college_4",
     name: "Maze Game",
     description:
       "Using graphics library in C++ this program generates a different Maze game everytime you play based on certain changeable parameters.",
@@ -145,7 +145,7 @@ export const projects = [
     images_path: ["/portfolio/maze.png"],
   },
   {
-    id: "string",
+    id: "college_5",
     name: "Smart Home Automation",
     description:
       "Home Automation system using Android App with AI and NodeMCU (ESP8266 Wifi module). With features like Speech recognition, Command Store, Floating widget service and Automatic scheduling system.",
@@ -160,7 +160,7 @@ export const projects = [
     images_path: ["/portfolio/smart-home-automation-3.png"],
   },
   {
-    id: "string",
+    id: "college_6",
     name: "Tic Tac Toe",
     description:
       "A Java program with AI which allows you to play Tic tac toe game with the program or a person.",
@@ -175,7 +175,7 @@ export const projects = [
   },
 
   {
-    id: "test",
+    id: "assignment_1",
     name: "Acceron - Location sharing using socket-io in Microservice",
     description:
       "A full-stack project using Node.js, Express, Socket.IO, React, and Leaflet for real-time location sharing  between taxi drivers and passengers.",
@@ -189,7 +189,7 @@ export const projects = [
     images_path: ["/portfolio/location-sharing-microservice.png"],
   },
   {
-    id: "string",
+    id: "assignment_2",
     name: "Vigor Backend - Email validation By OTP",
     description:
       "Ensures secure email validation in Node.js, employing a one-time password (OTP) system for robust authentication.",
@@ -204,7 +204,7 @@ export const projects = [
     images_path: ["/portfolio/vigor-backend.png"],
   },
   {
-    id: "string",
+    id: "assignment_3",
     name: "Vigor Frontend - complex transition layout from figma",
     description:
       "For a pre-job assessment, I crafted a complex transition layout for Vigor Launchpad, showcasing my skills in frontend development based on Figma designs.",
@@ -219,7 +219,7 @@ export const projects = [
     images_path: ["/portfolio/vigor-frontend.png"],
   },
   {
-    id: "string",
+    id: "assignment_4",
     name: "Portfolio 2020",
     description:
       "My PHP-powered Portfolio website is a dynamic showcase of my professional journey, featuring interactive elements to highlight skills and achievements.",
@@ -369,11 +369,11 @@ export const footerLinks = [
   {
     title: "Latest Projects",
     links: [
-      { title: "The Ap", url: "https://theap.vercel.app", image_path: "" },
+      { title: "The Ap", url: "https://theap.vercel.app", image_path: "/social-media/ap-furniture-short-logo.svg" },
       {
         title: "Lady Look Creation",
         url: "https://llcreation.vercel.app",
-        image_path: "",
+        image_path: "/social-media/lady-look-creation-logo.jpeg",
       },
       // { title: "Podcast", url: "/", image_path: "" },
       // { title: "Invite a friend", url: "/", image_path: "" },
@@ -384,18 +384,18 @@ export const footerLinks = [
     links: [
       {
         title: "Linked In",
-        url: "https://www.linkedIn.com",
-        image_path: "/ap_logo.webp",
+        url: "https://www.linkedin.com/in/mohd-maaz-1335b4185/",
+        image_path: "/social-media/linkedin.svg",
       },
       {
         title: "GitHub",
-        url: "https://www.github.com/smaazs71",
-        image_path: "/amazon.svg",
+        url: "https://github.com/smaazs71",
+        image_path: "/social-media/github.svg",
       },
       {
         title: "Previous Portfolio",
-        url: "https://www.000wehost.com",
-        image_path: "/flipkart.svg",
+        url: "https://pfmaaz.000webhostapp.com/",
+        image_path: "",
       },
     ],
   },
@@ -403,9 +403,9 @@ export const footerLinks = [
     title: "Socials",
     links: [
       // { title: "Discord", url: "/", image_path: "/discord.svg" },
-      { title: "Instagram", url: "/", image_path: "/instagram.svg" },
-      { title: "Twitter", url: "/", image_path: "/twitter.svg" },
-      { title: "Facebook", url: "/", image_path: "/facebook.svg" },
+      { title: "Instagram", url: "https://www.instagram.com/shaikhms71/", image_path: "/social-media/instagram.svg" },
+      { title: "Twitter", url: "https://twitter.com/Mr_M_Maaz", image_path: "/social-media/twitter.svg" },
+      { title: "Facebook", url: "https://www.facebook.com/mmaaz.shaikh.3/", image_path: "/social-media/facebook.svg" },
     ],
   },
 ];

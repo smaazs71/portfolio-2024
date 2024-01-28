@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="odd-section-bg padding-x min-h-screen p-nav-scroll max-width pb-section"
+      className="odd-section-bg padding-x min-h-screen p-nav-scroll pb-section"
     >
       <h1 className="title">Get In Touch</h1>
 

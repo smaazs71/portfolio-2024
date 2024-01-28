@@ -29,7 +29,7 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="even-section-bg padding-x min-h-screen p-nav-scroll flex items-center justify-center pb-section"
+      className="even-section-bg padding-x min-h-screen flex items-center justify-center p-nav-scroll pb-section"
     >
       <div className="w-full">
         <div className="flex flex-wrap -mx-4">
@@ -72,7 +72,7 @@ const Portfolio = () => {
                 <div className="grid md:grid-cols-2 grid-cols-1 w-full gap-8 max-w-[83.33%] mx-auto transition-all">
                   {filteredProjects?.map((project, i) => {
                     return (limit || projectsPerPage) > i ? (
-                      <ProjectCard project={project} />
+                      <ProjectCard project={project} key={project.id} />
                     ) : (
                       ""
                     );

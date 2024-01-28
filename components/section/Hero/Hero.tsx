@@ -34,12 +34,12 @@ const Hero = () => {
           <motion.div variants={scrollAnimation}>
             <div className="">
               <div className="text-center">
-                  <h6 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">
-                    M. Maaz Shaikh
-                  </h6>
-                  <h1 className="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
-                    Full Stack Developer
-                  </h1>
+                <h6 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">
+                  M. Maaz Shaikh
+                </h6>
+                <h1 className="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
+                  Full Stack Developer
+                </h1>
                 <motion.div variants={scrollAnimation}>
                   <p className="font-normal text-gray-600 text-md md:text-xl mb-16">
                     Welcome to my digital space! I'm M. Maaz Shaikh, a

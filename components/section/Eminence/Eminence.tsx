@@ -5,7 +5,7 @@ import React from "react";
 const Eminence = () => {
   return (
     <section
-      className="odd-section-bg padding-x min-h-screen p-nav-scroll max-width pb-section"
+      className="odd-section-bg padding-x min-h-screen p-nav-scroll pb-section"
       id="eminence"
     >
       <div className="">

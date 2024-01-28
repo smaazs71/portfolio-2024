@@ -7,16 +7,12 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="padding-x min-h-screen p-nav-scroll flex items-center justify-center even-section-bg pb-section"
+      className="padding-x min-h-screen flex items-center justify-center even-section-bg p-nav-scroll pb-section"
     >
       <div className="container max-w-screen-xl mx-auto px-4">
-        <h1 className="title">
-          Education
-        </h1>
+        <h1 className="title">Education</h1>
 
-        <p className="sub-title">
-          Below is a summary of the places I studied
-        </p>
+        <p className="sub-title">Below is a summary of the places I studied</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {educationData.map((institution) => (
