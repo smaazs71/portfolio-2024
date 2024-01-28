@@ -18,7 +18,10 @@ export interface ProjectDataProps {
   stack: string;
   year: string;
   key_words: string;
+  src_code_url?: string;
+  view_demo_url?: string;
   images_path: string[];
+  gif_path: string;
 }
 
 export interface ProjectsFilterProps {

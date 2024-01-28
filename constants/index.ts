@@ -36,7 +36,10 @@ export const projects = [
     stack: "NextJS, ReactJS, Tailwind CSS",
     year: "2023",
     key_words: "string",
-    images_path: ["/portfolio/theap.gif"],
+    src_code_url: "https://github.com/smaazs71/theap",
+    view_demo_url: "https://theap.vercel.app/",
+    gif_path: "/portfolio/theap.gif",
+    images_path: ["/portfolio/theap.png"],
   },
   {
     id: "string",
@@ -47,11 +50,12 @@ export const projects = [
     stack: "MERN, React, Redux, NodeJS, Express, MongoDB",
     year: "2020 & 2023",
     key_words: "string",
-    images_path: ["/portfolio/theap.gif"],
+    src_code_url: "",
+    view_demo_url: "",
+    gif_path: "/portfolio/ap-management.gif",
+    images_path: ["/portfolio/ap-management.png"],
   },
 
-  
-  
   {
     id: "string",
     name: "Infosys",
@@ -61,7 +65,10 @@ export const projects = [
     stack: "Angular, Spring boot, React, Microservices",
     year: "2021 - 2023",
     key_words: "Infosys Angular, Spring boot, React, Microservices 2021 - 2023",
-    images_path: ["/portfolio/infosys.gif"],
+    src_code_url: "",
+    view_demo_url: "",
+    gif_path: "/portfolio/infosys.gif",
+    images_path: ["/portfolio/infosys.png"],
   },
   {
     id: "string",
@@ -73,11 +80,11 @@ export const projects = [
     year: "2021 -2023",
     key_words:
       "American Express Spring boot, React, Selenium, Splunk, Jenkins, PostgressQL 2021 -2023",
-    images_path: ["/portfolio/american-express.gif"],
+    src_code_url: "",
+    view_demo_url: "",
+    gif_path: "/portfolio/american-express.gif",
+    images_path: ["/portfolio/american-express.svg"],
   },
-
-
-
 
   {
     id: "string",
@@ -89,7 +96,11 @@ export const projects = [
     year: "2019",
     key_words:
       "Id proof Prediction and Extraction of data college Python, Google Colab, Machine Learning 2019",
-    images_path: ["/portfolio/GIFIdPredictionGif.gif"],
+    src_code_url:
+      "https://github.com/smaazs71/Id-proof-Prediction-and-Extraction-of-data",
+    view_demo_url: "",
+    gif_path: "/portfolio/id-prediction.gif",
+    images_path: ["/portfolio/id-prediction.png"],
   },
   {
     id: "string",
@@ -100,7 +111,10 @@ export const projects = [
     stack: "PHP, jQuery, MySQL",
     year: "2018",
     key_words: "Minip college PHP, jQuery, MySQL 2018",
-    images_path: ["/portfolio/GIFMinip.gif"],
+    src_code_url: "https://github.com/smaazs71/minip",
+    view_demo_url: "",
+    gif_path: "/portfolio/minip.gif",
+    images_path: ["/portfolio/minip.png"],
   },
   {
     id: "string",
@@ -111,7 +125,10 @@ export const projects = [
     stack: "AWS, PHP, Bootstrap",
     year: "2020",
     key_words: "RCOE Print college AWS, PHP, Bootstrap ",
-    images_path: ["/portfolio/GIFRcoePrint.gif"],
+    src_code_url: "https://github.com/smaazs71/online-printing-service",
+    view_demo_url: "",
+    gif_path: "/portfolio/rcoe-print.gif",
+    images_path: ["/portfolio/rcoe-print.png"],
   },
   {
     id: "string",
@@ -122,7 +139,10 @@ export const projects = [
     stack: "C Programming Language, C++",
     year: "2018",
     key_words: "C Programming Language, C++ 2018 college Maze Game",
-    images_path: ["/portfolio/portfolio-test-4.jpg"],
+    src_code_url: "https://github.com/smaazs71/Maze-Game",
+    view_demo_url: "",
+    gif_path: "/portfolio/maze.gif",
+    images_path: ["/portfolio/maze.png"],
   },
   {
     id: "string",
@@ -134,7 +154,10 @@ export const projects = [
     year: "2019 - 2020",
     key_words:
       "Smart Home Automation AI college 2019 - 2020 Android, NodeMCU, Web-development",
-    images_path: ["/portfolio/GIFSmartHomeAutomation.gif"],
+    src_code_url: "https://github.com/smaazs71/Smart-Home-Automation-using-AI",
+    view_demo_url: "",
+    gif_path: "/portfolio/smart-home-automation-2.gif",
+    images_path: ["/portfolio/smart-home-automation-3.png"],
   },
   {
     id: "string",
@@ -145,51 +168,69 @@ export const projects = [
     stack: "Java",
     year: "2017",
     key_words: "Tic Tac Toe Java college 2017",
-    images_path: ["/portfolio/GIFTicTacToe.gif"],
+    src_code_url: "https://github.com/smaazs71/Tic-Tac-Toe",
+    view_demo_url: "",
+    gif_path: "/portfolio/tic-tac-toe.gif",
+    images_path: ["/portfolio/tic-tac-toe.png"],
   },
-
-
-
 
   {
     id: "test",
     name: "Acceron - Location sharing using socket-io in Microservice",
-    description: "A full-stack project using Node.js, Express, Socket.IO, React, and Leaflet for real-time location sharing  between taxi drivers and passengers.",
+    description:
+      "A full-stack project using Node.js, Express, Socket.IO, React, and Leaflet for real-time location sharing  between taxi drivers and passengers.",
     category: "assignment",
     stack: "NodeJS, Express, SocketIO, Microservices",
     year: "2023",
     key_words: "string",
-    images_path: ["/portfolio/location-sharing-microservice.gif"],
+    src_code_url: "https://github.com/smaazs71/LocationSharingApp",
+    view_demo_url: "",
+    gif_path: "/portfolio/location-sharing-microservice.gif",
+    images_path: ["/portfolio/location-sharing-microservice.png"],
   },
   {
     id: "string",
     name: "Vigor Backend - Email validation By OTP",
-    description: "Ensures secure email validation in Node.js, employing a one-time password (OTP) system for robust authentication.",
+    description:
+      "Ensures secure email validation in Node.js, employing a one-time password (OTP) system for robust authentication.",
     category: "assignment",
     stack: "NodeJS, Express, NodeMailer, Gmail",
     year: "2023",
     key_words: "string",
-    images_path: ["/portfolio/vigor-backend.gif"],
+    src_code_url:
+      "https://github.com/smaazs71/Vigor-Assessment/tree/main/backend",
+    view_demo_url: "",
+    gif_path: "/portfolio/vigor-backend.gif",
+    images_path: ["/portfolio/vigor-backend.png"],
   },
   {
     id: "string",
     name: "Vigor Frontend - complex transition layout from figma",
-    description: "For a pre-job assessment, I crafted a complex transition layout for Vigor Launchpad, showcasing my skills in frontend development based on Figma designs.",
+    description:
+      "For a pre-job assessment, I crafted a complex transition layout for Vigor Launchpad, showcasing my skills in frontend development based on Figma designs.",
     category: "assignment",
     stack: "Next, Tailwind, Headless/UI",
     year: "2023",
     key_words: "string",
-    images_path: ["/portfolio/vigor-frontend.gif"],
+    src_code_url:
+      "https://github.com/smaazs71/Vigor-Assessment/tree/main/frontend",
+    view_demo_url: "https://vigor-assessment-frontend.vercel.app/",
+    gif_path: "/portfolio/vigor-frontend.gif",
+    images_path: ["/portfolio/vigor-frontend.png"],
   },
   {
     id: "string",
     name: "Portfolio 2020",
-    description: "My PHP-powered Portfolio website is a dynamic showcase of my professional journey, featuring interactive elements to highlight skills and achievements.",
+    description:
+      "My PHP-powered Portfolio website is a dynamic showcase of my professional journey, featuring interactive elements to highlight skills and achievements.",
     category: "assignment",
     stack: "PHP, javascript",
     year: "2020",
     key_words: "string",
-    images_path: ["/portfolio/portfolio-old.gif"],
+    src_code_url: "https://github.com/smaazs71/portfolio",
+    view_demo_url: "https://pfmaaz.000webhostapp.com/",
+    gif_path: "/portfolio/portfolio-old.gif",
+    images_path: ["/portfolio/portfolio-old.png"],
   },
 ];
 
