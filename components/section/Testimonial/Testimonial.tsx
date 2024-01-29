@@ -47,7 +47,7 @@ const Testimonial = () => {
   return (
     <div
       id="testimonial"
-      className=" even-section-bg padding-x min-h-screen p-nav-scroll pb-section"
+      className=" even-section-bg padding-x sm:min-h-screen p-nav-scroll pb-section"
     >
       <div className="max-w-screen-xl mx-auto flex flex-col w-full text-center justify-center">
         <div>
@@ -55,7 +55,9 @@ const Testimonial = () => {
             {/* Trusted by Thousands of Happy Customer */}
             Testimonials
           </h3>
-          <p>These are placeholder testimonials, awaiting the authentic ones.</p>
+          <p>
+            These are placeholder testimonials, awaiting the authentic ones.
+          </p>
           <p className="sub-title">
             Discover the stories of our delighted customers who have joined us
             with immense satisfaction, sharing their experiences of using our
@@ -138,7 +140,6 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

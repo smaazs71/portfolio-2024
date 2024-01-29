@@ -25,22 +25,35 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     gif_path,
   } = project;
 
-  const [imageSrc, setImageSrc] = useState(images_path[0]);
+  const [hoverImg, setHoverImg] = useState(false);
 
   return (
-    <div className="flex flex-col justify-start gap-2 items-start transition ease-in-out delay-150">
+    <div
+      className="flex flex-col justify-start gap-2 items-start transition ease-in-out delay-150"
+      onMouseOver={() => setHoverImg(true)}
+      onMouseOut={() => setHoverImg(false)}
+    >
       {/* <div className="max-h-[16.5rem]"></div> */}
-      <Image
-        src={imageSrc}
-        // src={"/portfolio/test.png"}
-        alt="product model"
-        height={1000}
-        width={1000}
-        onMouseOver={() => setImageSrc(gif_path)}
-        onMouseOut={() => setImageSrc(images_path[0])}
-        priority
-        className="w-full rounded-md h-[16.5rem] " // object-contain object-center
-      />
+
+      {hoverImg ? (
+        <Image
+          src={gif_path}
+          alt="product model"
+          height={1000}
+          width={1000}
+          priority
+          className="transition ease-in-out delay-150 w-full rounded-md h-[16.5rem] " // object-contain object-center
+        />
+      ) : (
+        <Image
+          src={images_path[0]}
+          alt="product model"
+          height={1000}
+          width={1000}
+          priority
+          className="w-full rounded-md h-[16.5rem] transition ease-in-out delay-150 " // object-contain object-center
+        />
+      )}
 
       <div className="text-xl my-3 font-semibold capitalize hover:text-primary-light">
         {name}

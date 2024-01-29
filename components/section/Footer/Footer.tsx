@@ -5,9 +5,9 @@ import { footerLinks } from "@/constants";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col text-black-100 border-t border-gray-100">
-      <div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
-        <div className="flex flex-col justify-start items-start gap-6">
+    <footer className="flex flex-col text-black-100 border-t border-gray-100 pb-8 sm:pb-0">
+      <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-between gap-12 sm:px-16 px-6 py-10">
+        <div className="flex flex-col justify-start items-start gap-6 lg:border-t-0 lg:pt-0 border-t-2 pt-3  border-t-gray-50">
           <Image
             src="/logo/Uchiha-Mugiwara-logos-black.png"
             alt="logo"

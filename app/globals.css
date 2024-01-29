@@ -88,7 +88,7 @@ body {
 }
 
 .footer__links {
-  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
+  @apply flex-1 w-full flex lg:justify-end justify-between flex-wrap flex-col md:flex-row max-md:mt-10 gap-10 md:gap-20;
 }
 
 .footer__link {
