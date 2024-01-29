@@ -72,7 +72,8 @@ const Navbar = () => {
           <div className="col-start-10 col-end-12 flex justify-end items-center">
             <Link
               href={
-                "https://drive.google.com/file/d/1balr5D2pyR5Y2oV-U7Yy990noEEKtdvx/view?usp=drive_link"
+                "https://drive.google.com/file/d/1TunoUiVs_zMokfJD3RL5ZFdo700b3Q7Z/view?usp=sharing"
+                // "https://drive.google.com/file/d/1balr5D2pyR5Y2oV-U7Yy990noEEKtdvx/view?usp=drive_link"
               }
               target="blank"
               className="z-10"

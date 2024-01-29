@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     title: "Uchiha Mugiwara - M. Maaz Shaikh's Portfolio",
     description:
       "Explore the professional journey of M. Maaz Shaikh through Uchiha Mugiwara, a dynamic portfolio web app built on NextJS.",
-    images: "/logo/Uchiha-Mugiwara-logos-black.png",
+    images: "/logo/Uchiha-Mugiwara-logos-black-favicon-wobg.png",
     url: "https://m-maaz.vercel.app",
     type: "website",
   },
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     title: "Uchiha Mugiwara - M. Maaz Shaikh's Portfolio",
     description:
       "Explore the professional journey of M. Maaz Shaikh through Uchiha Mugiwara, a dynamic portfolio web app built on NextJS.",
-    images: "/logo/Uchiha-Mugiwara-logos-black.png",
+    images: "/logo/Uchiha-Mugiwara-logos-black-favicon-wobg.png",
     site: "@Mr_M_Maaz",
   },
 };
