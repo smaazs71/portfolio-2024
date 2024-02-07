@@ -369,10 +369,14 @@ export const footerLinks = [
   {
     title: "Latest Projects",
     links: [
-      { title: "The Ap", url: "https://theap.vercel.app", image_path: "/social-media/ap-furniture-short-logo.svg" },
+      {
+        title: "The Ap",
+        url: "https://theap.vercel.app",
+        image_path: "/social-media/ap-furniture-short-logo.svg",
+      },
       {
         title: "Lady Look Creation",
-        url: "https://llcreation.vercel.app",
+        url: "https://ll-creation.vercel.app/",
         image_path: "/social-media/lady-look-creation-logo.jpeg",
       },
       // { title: "Podcast", url: "/", image_path: "" },
@@ -384,7 +388,7 @@ export const footerLinks = [
     links: [
       {
         title: "Linked In",
-        url: "https://www.linkedin.com/in/mohd-maaz-1335b4185/",
+        url: "https://www.linkedin.com/in/mohamed-maaz-shaikh",
         image_path: "/social-media/linkedin.svg",
       },
       {
@@ -403,9 +407,21 @@ export const footerLinks = [
     title: "Socials",
     links: [
       // { title: "Discord", url: "/", image_path: "/discord.svg" },
-      { title: "Instagram", url: "https://www.instagram.com/shaikhms71/", image_path: "/social-media/instagram.svg" },
-      { title: "Twitter", url: "https://twitter.com/Mr_M_Maaz", image_path: "/social-media/twitter.svg" },
-      { title: "Facebook", url: "https://www.facebook.com/mmaaz.shaikh.3/", image_path: "/social-media/facebook.svg" },
+      {
+        title: "Instagram",
+        url: "https://www.instagram.com/shaikhms71/",
+        image_path: "/social-media/instagram.svg",
+      },
+      {
+        title: "Twitter",
+        url: "https://twitter.com/Mr_M_Maaz",
+        image_path: "/social-media/twitter.svg",
+      },
+      {
+        title: "Facebook",
+        url: "https://www.facebook.com/mmaaz.shaikh.3/",
+        image_path: "/social-media/facebook.svg",
+      },
     ],
   },
 ];
