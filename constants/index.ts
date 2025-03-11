@@ -107,8 +107,8 @@ export const projects = [
       "NextJS, Invitation, Dashboard, Dynamic Data, Guest List, Query String, Error Handling",
     src_code_url: "https://github.com/smaazs71/occasion",
     view_demo_url: "https://occasion.vercel.app",
-    gif_path: "/portfolio/occasion-app.gif",
-    images_path: ["/portfolio/occasion-app.png"],
+    gif_path: "/portfolio/occasion-logo.jpeg",
+    images_path: ["/portfolio/occasion-logo.jpeg"],
     skills:
       "NextJS, Dynamic Web Apps, Dashboard Development, Query String Integration, Error Handling, UI/UX Design",
   },
@@ -1199,9 +1199,24 @@ export const footerLinks = [
     title: "Latest Projects",
     links: [
       {
-        title: "The Ap",
+        title: "Cloudhire",
+        url: "https://jobs.cloudhire.ai",
+        image_path: "/social-media/Cloudhire-logo-small.png",
+      },
+      // {
+      //   title: "Utells",
+      //   // url: "https://utells.app",
+      //   image_path: "/social-media/utells-logo.svg",
+      // },
+      {
+        title: "AP Furniture",
         url: "https://theap.vercel.app",
         image_path: "/social-media/ap-furniture-short-logo.svg",
+      },
+      {
+        title: "Occasion",
+        url: "https://occasion.vercel.app",
+        image_path: "/social-media/occasion-logo.jpeg",
       },
       {
         title: "Lady Look Creation",

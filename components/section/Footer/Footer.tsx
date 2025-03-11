@@ -27,7 +27,7 @@ const Footer = () => {
               {link.links.map((item) => (
                 <Link
                   key={item.title}
-                  href={item.url}
+                  href={item.url || "#"}
                   rel="noopener noreferrer"
                   target={"_blank"}
                   className="sub-title-2 flex items-center justify-start gap-2 hover:text-black hover:font-medium"
@@ -36,7 +36,7 @@ const Footer = () => {
                     <>
                       <Image
                         src={item.image_path}
-                        alt="image"
+                        alt={item.title}
                         width={100}
                         height={100}
                         className={`object-contain w-9 h-9 `}
