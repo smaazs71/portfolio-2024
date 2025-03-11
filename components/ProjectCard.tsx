@@ -4,13 +4,18 @@ import { ProjectDataProps } from "@/types";
 import { Url } from "next/dist/shared/lib/router/router";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 interface ProjectCardProps {
   project: ProjectDataProps;
 }
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
+  const descriptionRef = useRef(null);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [needsReadMore, setNeedsReadMore] = useState(false);
+  const [maxHeight, setMaxHeight] = useState(0);
+
   const {
     id,
     name,
@@ -24,6 +29,31 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     images_path,
     gif_path,
   } = project;
+
+  useEffect(() => {
+    if (descriptionRef.current) {
+      const element = descriptionRef.current;
+      const computedStyle = window.getComputedStyle(element);
+      const lineHeight = parseFloat(computedStyle.lineHeight);
+      const collapsedHeight = lineHeight * 4;
+      if (element.scrollHeight > collapsedHeight) {
+        setNeedsReadMore(true);
+        setMaxHeight(collapsedHeight);
+      } else {
+        setMaxHeight(element.scrollHeight);
+      }
+    }
+  }, [description]);
+
+  useEffect(() => {
+    if (descriptionRef.current) {
+      const element = descriptionRef.current;
+      const computedStyle = window.getComputedStyle(element);
+      const lineHeight = parseFloat(computedStyle.lineHeight);
+      const collapsedHeight = lineHeight * 4;
+      setMaxHeight(isExpanded ? element.scrollHeight : collapsedHeight);
+    }
+  }, [isExpanded]);
 
   const [hoverImg, setHoverImg] = useState(false);
 
@@ -58,7 +88,22 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className="text-xl my-3 font-semibold capitalize hover:text-primary-light">
         {name}
       </div>
-      <p className="text-base font-medium text-black/40">{description}</p>
+      <div>
+        <div
+          ref={descriptionRef}
+          className="text-base font-medium text-black/80 overflow-hidden transition-all duration-500 ease-in-out"
+          style={{ maxHeight: `${maxHeight}px` }}
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
+        {needsReadMore && (
+          <button
+            onClick={() => setIsExpanded((prev) => !prev)}
+            className="mt-2 text-blue-500 underline"
+          >
+            {isExpanded ? "Show less" : "Read More"}
+          </button>
+        )}
+      </div>
 
       <div className="text-sm font-medium">
         <p className="mx-2 my-3 text-primary-light/70 hover:text-primary-light">

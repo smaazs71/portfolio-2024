@@ -26,7 +26,7 @@ const Journey = () => {
                   <span className="shrink-0">
                     <Image
                       src={role.companyLogo}
-                      className="h-auto w-32"
+                      className="h-20 w-32"
                       alt="company logo"
                       height={100}
                       width={100}
@@ -39,7 +39,7 @@ const Journey = () => {
               </div>
               <div className="md:w-3/5">
                 <div className="relative flex md:pl-20">
-                  <span className="absolute left-8 top-4 hidden h-4 w-4 rounded-full border-2 border-gray-600 bg-white md:block"></span>
+                  <span className="mt-4 absolute left-8 top-4 hidden h-4 w-4 rounded-full border-2 border-gray-600 bg-white md:block"></span>
 
                   <div className="mt-1 flex">
                     <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
@@ -52,7 +52,11 @@ const Journey = () => {
                       </span>
                       <div className="pt-2">
                         <span className="block font-body text-black">
-                          {role.description}
+                          <div
+                            dangerouslySetInnerHTML={{
+                              __html: role.description,
+                            }}
+                          />
                         </span>
                       </div>
                     </div>
