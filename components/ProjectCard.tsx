@@ -11,10 +11,10 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
-  const descriptionRef = useRef(null);
+  const descriptionRef = useRef<HTMLDivElement | null>(null);
   const [isExpanded, setIsExpanded] = useState(false);
   const [needsReadMore, setNeedsReadMore] = useState(false);
-  const [maxHeight, setMaxHeight] = useState(0);
+  const [maxHeight, setMaxHeight] = useState<number | undefined>(undefined);
 
   const {
     id,
@@ -30,30 +30,47 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     gif_path,
   } = project;
 
-  useEffect(() => {
-    if (descriptionRef.current) {
-      const element = descriptionRef.current;
-      const computedStyle = window.getComputedStyle(element);
-      const lineHeight = parseFloat(computedStyle.lineHeight);
-      const collapsedHeight = lineHeight * 4;
-      if (element.scrollHeight > collapsedHeight) {
-        setNeedsReadMore(true);
-        setMaxHeight(collapsedHeight);
-      } else {
-        setMaxHeight(element.scrollHeight);
-      }
-    }
-  }, [description]);
+  // useEffect(() => {
+  //   if (descriptionRef.current) {
+  //     const element = descriptionRef.current;
+  //     const computedStyle = window.getComputedStyle(element);
+  //     const lineHeight = parseFloat(computedStyle.lineHeight);
+  //     const collapsedHeight = lineHeight * 4;
+  //     if (element.scrollHeight > collapsedHeight) {
+  //       setNeedsReadMore(true);
+  //       setMaxHeight(collapsedHeight);
+  //     } else {
+  //       setMaxHeight(element.scrollHeight);
+  //     }
+  //   }
+  // }, [description]);
+
+  // useEffect(() => {
+  //   if (descriptionRef.current) {
+  //     const element = descriptionRef.current;
+  //     const computedStyle = window.getComputedStyle(element);
+  //     const lineHeight = parseFloat(computedStyle.lineHeight);
+  //     const collapsedHeight = lineHeight * 4;
+  //     setMaxHeight(isExpanded ? element.scrollHeight : collapsedHeight);
+  //   }
+  // }, [isExpanded]);
 
   useEffect(() => {
-    if (descriptionRef.current) {
-      const element = descriptionRef.current;
-      const computedStyle = window.getComputedStyle(element);
-      const lineHeight = parseFloat(computedStyle.lineHeight);
-      const collapsedHeight = lineHeight * 4;
+    const element = descriptionRef.current;
+    if (!element) return;
+
+    const computedStyle = window.getComputedStyle(element);
+    const lineHeight = parseFloat(computedStyle.lineHeight);
+    const collapsedHeight = lineHeight * 4;
+
+    if (element.scrollHeight > collapsedHeight) {
+      setNeedsReadMore(true);
       setMaxHeight(isExpanded ? element.scrollHeight : collapsedHeight);
+    } else {
+      setNeedsReadMore(false);
+      setMaxHeight(undefined);
     }
-  }, [isExpanded]);
+  }, [description, isExpanded]);
 
   const [hoverImg, setHoverImg] = useState(false);
 
@@ -68,7 +85,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       {hoverImg ? (
         <Image
           src={gif_path}
-          alt="product model"
+          alt={name}
           height={1000}
           width={1000}
           priority
@@ -77,7 +94,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       ) : (
         <Image
           src={images_path[0]}
-          alt="product model"
+          alt={name}
           height={1000}
           width={1000}
           priority
@@ -92,7 +109,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <div
           ref={descriptionRef}
           className="text-base font-medium text-black/80 overflow-hidden transition-all duration-500 ease-in-out"
-          style={{ maxHeight: `${maxHeight}px` }}
+          style={{ maxHeight: maxHeight ? `${maxHeight}px` : "none" }}
           dangerouslySetInnerHTML={{ __html: description }}
         />
         {needsReadMore && (
