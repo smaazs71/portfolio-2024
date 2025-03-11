@@ -1101,6 +1101,11 @@ export const clientData = [
     url: "https://www.infosys.com/",
   },
   {
+    name: "Cloudhire.ai",
+    logo: "/client/cloudhire-logo.svg",
+    url: "https://www.cloudhire.ai/",
+  },
+  {
     name: "American Express",
     logo: "/client/american-express-logo.svg",
     url: "https://www.americanexpress.com/",
@@ -1109,6 +1114,21 @@ export const clientData = [
     name: "AP Furniture",
     logo: "/client/AP-furniture-logo-wobg.png",
     url: "https://theap.vercel.app/",
+  },
+  {
+    name: "Utells",
+    logo: "/client/utells-logo.svg",
+    // url: "https://www.utells.com/",
+  },
+  {
+    name: "Naaz Furniture",
+    logo: "/client/naaz-furniture-logo.png",
+    url: "https://www.indiamart.com/naaz-furnituremumbai/?srsltid=AfmBOoqNPQhm5dRnzdmRXgkghc5Oi8XwD5l9ueDFYl2IFtALWqh6F9eo",
+  },
+  {
+    name: "Acranox Technologies",
+    logo: "/client/acranox-logo-wobg.png",
+    url: "https://acranoxtech.com/",
   },
   {
     name: "Lady Look Creation",

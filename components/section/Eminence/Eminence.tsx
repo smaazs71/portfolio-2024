@@ -11,16 +11,17 @@ const Eminence = () => {
       <div className="">
         <div className="items-center max-w-screen-xl px-4 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:px-6">
           <div className="col-span-2">
-            <p className="title-adj">Adaptable Full-Stack Developer</p>
+            <p className="title-adj">Innovative Full-Stack Developer</p>
             <h2 className="title-2 tracking-tight">
-              Crafting High-Performance, User-Focused Applications with Node.js,
-              and React.js
+              Building Scalable, High-Performance Systems with Node.js,
+              AI-Driven Automation, and Cloud Microservices
             </h2>
             <p className="sub-title !text-start">
-              Versatile Full-Stack Developer specializing in Node.js, SQL, NoSQL
-              and React.js. Known for crafting robust, scalable, and
-              user-centric applications with adaptability and collaborative
-              spirit.
+              Versatile full-stack developer with expertise in Node.js,
+              React.js, AWS, MongoDB, SQL, and NoSQL. Adept at developing
+              AI-powered automation for job applications, implementing
+              cloud-based workflows, and optimizing robust solutions for
+              enterprise clients.
             </p>
             <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
               <div className="">
@@ -31,11 +32,12 @@ const Eminence = () => {
                       <a
                         href={client.url}
                         className="flex items-center lg:justify-center"
+                        target="blank"
                       >
                         <Image
                           src={client.logo}
                           className="opacity-70 hover:opacity-100 h-9 w-full hover:text-gray-900 dark:hover:text-white"
-                          alt="logo"
+                          alt="client logo"
                           height={100}
                           width={100}
                         />
@@ -59,12 +61,13 @@ const Eminence = () => {
                 className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
               />
 
-              <h3 className="title-2">
-                React JS
-              </h3>
+              <h3 className="title-2">React JS</h3>
               <p className="sub-title-2">
-                React JS: 2+ years. Infosys (Amex). Freelance on MERN for AP
-                Furniture, Next.js portfolio. Exploring more Next.js projects.
+                3+ years of experience building high-performance, user-centric
+                interfaces with React.js and Next.js. I have delivered
+                innovative digital showrooms, dynamic dashboards, and scalable
+                enterprise solutions for clients such as AP Furniture, Utells,
+                and Infosys.
               </p>
             </div>
             <div>
@@ -76,13 +79,13 @@ const Eminence = () => {
                 className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
               />
 
-              <h3 className="title-2">
-                Node JS
-              </h3>
+              <h3 className="title-2">Node JS</h3>
               <p className="sub-title-2">
-                Node JS: Infosys Full Stack Developer (JAVA, React) - 1.5 years,
-                freelanced approx. 8 months with MERN. Completed microservices,
-                email OTP validation, and real-time location sharing projects.
+                Extensive backend expertise with Node.js and Express.js,
+                delivering scalable microservices and real-time applications for
+                both enterprise and freelance projects. Experience includes
+                robust API integrations, email OTP validation, and real-time
+                location sharing systems.
               </p>
             </div>
             <div>
@@ -93,27 +96,26 @@ const Eminence = () => {
                 width={100}
                 className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
               />
-              <h3 className="title-2">
-                SQL/NoSQL
-              </h3>
+              <h3 className="title-2">SQL/NoSQL</h3>
               <p className="sub-title-2">
-                Database: Handled PostgreSQL at Infosys, MongoDB in freelance
-                projects. Showcasing versatile database management skills.
+                4+ years of experience working with PostgreSQL, MongoDB, and
+                MySQL. Adept at designing and managing robust data architectures
+                that power scalable, high-performance applications for both
+                enterprise and freelance projects.
               </p>
             </div>
             <div>
               <Image
-                src={"/display-icons/seo-icon.svg"}
-                alt="SEO logo"
+                src={"/display-icons/aws-logo.svg"}
+                alt="AWS icon"
                 height={100}
                 width={100}
                 className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
               />
-
-              <h3 className="title-2">SEO</h3>
+              <h3 className="title-2">AWS</h3>
               <p className="sub-title-2">
-                Prioritizing and incorporating SEO principles for an impactful,
-                searchable, and accessible online presence.
+                Skilled in AWS services (EC2, S3, Lambda, Amplify), enabling
+                efficient cloud deployments and scalable architectures.
               </p>
             </div>
           </div>
